@@ -26,3 +26,15 @@
   list-style: none;
  }
  
+ .jumbotron {
+  height: 600px;
+  background-color: rgb(26, 188, 156);
+ }
+
+ .content {
+   margin: 0 auto;
+ }
+
+ .image{
+  aspect-ratio: 1/1;
+}
