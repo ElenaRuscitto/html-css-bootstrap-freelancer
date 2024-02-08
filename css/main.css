@@ -1,11 +1,11 @@
- [class^="container"] {
+ /* [class^="container"] {
   border: 1px solid black;
  }
 
 
  [class^="row"] {
   border: 1px solid black;
- }
+ } */
 
  header {
   height: 90px;
@@ -55,15 +55,12 @@
  .image{
   aspect-ratio: 1/1;
 }
+.line {
+  /* font-weight: 900; */
+}
 
 /* PORTFOLIO */
-.portfolio {
-  background-color: rgb(94, 57, 229);
-}
 
-.portfolio .col {
-  background-color: rgb(69, 24, 232);
-}
 
 /* ABOUT */
 .about {
@@ -81,6 +78,12 @@
    background-color: rgb(58, 84, 109);
  }
 
+ .icons i{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+ }
  .footer-bottom {
   background-color: rgb(44, 62, 80);
 }
@@ -88,3 +91,4 @@
 span {
   color: rgb(28, 187, 156);
 }
+
