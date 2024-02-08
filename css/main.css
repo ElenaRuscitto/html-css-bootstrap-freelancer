@@ -1,12 +1,10 @@
  [class^="container"] {
   border: 1px solid black;
-  background-color: rgba(127, 255, 212, 0.308);
  }
 
 
  [class^="row"] {
   border: 1px solid black;
-  background-color: rgb(178, 255, 127);
  }
 
  header {
@@ -39,6 +37,11 @@
   padding: 50px 0;
  }
 
+.fa-bars {
+  color: rgb(136, 136, 136);
+  /* font-size: xx-large; */
+}
+ 
 
  /* JUMBOTRON */
  .jumbotron {
@@ -67,6 +70,11 @@
   background-color: rgb(26, 188, 156);
  }
 
+ .btn-success {
+  background-color: rgb(26, 188, 156);
+  border: rgb(26, 188, 156) ;
+ }
+
  /* FOOTER */
 
  .footer-top {
@@ -75,4 +83,8 @@
 
  .footer-bottom {
   background-color: rgb(44, 62, 80);
+}
+
+span {
+  color: rgb(28, 187, 156);
 }
