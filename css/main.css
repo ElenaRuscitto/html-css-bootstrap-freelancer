@@ -54,6 +54,7 @@
  /* JUMBOTRON */
  .jumbotron {
   background-color: rgb(26, 188, 156);
+  padding-top: 0;
  }
 
  .content {
@@ -62,7 +63,10 @@
 
  .image{
   aspect-ratio: 1/1;
+  height: 18rem;
+  margin-bottom: 90px;
 }
+
 .line {
   /* font-weight: 900; */
 }
