@@ -12,6 +12,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+  <!-- FONT HELVETICA -->
+  <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+                
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
 
@@ -19,28 +23,33 @@
 <body>
 
   <header>
-    <div class="container h-100">
-      <div class="row align-items-center text-white ">
 
-        <div class="col ">START BOOTSTRAP</div>
- 
-        <nav class="col d-none d-md-block d-flex align-items-center h-100 ">
-          <ul class="d-flex justify-content-end h-100 m-0">
-            <li class="mx-3 h-100 d-flex align-items-center">PORTFOLIO</li>
-            <li class="mx-3 h-100 d-flex align-items-center">ABOUT</li>
-            <li class="mx-3 h-100 d-flex align-items-center">CONTACT</li>
-          </ul>
-        </nav>
+    <nav class="my-bg navbar navbar-expand-lg py-4  " data-bs-theme="dark">
+      <div class="container ">
 
-        <div class="col d-md-none text-end">
-          <div class="">
-            <i class="border rounded-2 border-white px-2 py-1 fa-solid fa-bars"></i>
-          </div>
+        <a class="navbar-brand text-uppercase fs-4 " href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
           
-        </div>
+            <li class="nav-item">
+              <a class="nav-link  " aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>                            
+          </ul>
 
+        </div>
       </div>
-    </div>
+    </nav>
+  
   </header>
 
   <main>
