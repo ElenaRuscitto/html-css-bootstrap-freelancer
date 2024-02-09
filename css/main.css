@@ -31,6 +31,10 @@
  header ul {
   list-style: none;
  }
+
+ .navbar-toggler {
+   border: 1px solid  #fff !important;
+ }
  
  .er-container {
   width: 60%;
@@ -47,7 +51,6 @@
 
 .fa-bars {
   color: rgb(136, 136, 136);
-  /* font-size: xx-large; */
 }
 
 .line-container {
@@ -65,7 +68,7 @@
   background-color: rgb(44, 62, 80);
   height: 3px;
   width: 35%;
-  margin: 0 3px;
+  margin: 0 10px;
 }
 
 
@@ -116,23 +119,6 @@ img {
   display: block;
 }
 
-/* img:hover img{
-  background-color: rgba(0, 172, 155, 0.606);
-} */
-
-/* #immagine-hover{
-  background-color: rgba(0, 172, 155, 0.606);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-
-
-#immagine:hover{
-  opacity: 0;
-} */
 
 /* ABOUT */
 .about {
@@ -143,6 +129,8 @@ img {
   background-color: rgb(26, 188, 156);
   border: none ;
  }
+
+
  /* CONTACT ME */
 
 .er-form input,
@@ -178,6 +166,10 @@ img {
  }
  .footer-bottom {
   background-color: rgb(44, 62, 80);
+}
+
+.coyright {
+  font-size:.7rem;
 }
 
 span {
