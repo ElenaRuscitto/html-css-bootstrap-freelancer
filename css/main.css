@@ -72,7 +72,13 @@
 }
 
 /* PORTFOLIO */
+img {
+  width: 100%;
+}
 
+img:hover img{
+  background-color: rgba(0, 172, 155, 0.606);
+}
 
 /* ABOUT */
 .about {
@@ -81,8 +87,28 @@
 
  .btn-success {
   background-color: rgb(26, 188, 156);
-  border: rgb(26, 188, 156) ;
+  border: none ;
  }
+ /* CONTACT ME */
+
+.er-form input,
+.er-form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.er-form input:focus,
+.er-form textarea:focus {
+  box-shadow: none;
+}
+
+.er-form input::placeholder,
+.er-form textarea::placeholder {
+  color: #2b3d4f;
+  
+} 
 
  /* FOOTER */
 
